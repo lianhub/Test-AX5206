@@ -1,5 +1,6 @@
 
-loadusr -W lcec_conf /usr/share/linuxcnc-ethercat/examples/generic-complex/Test/ethercat-conf_X.xml
+#loadusr -W lcec_conf /usr/share/linuxcnc-ethercat/examples/generic-complex/Test/ethercat-conf_X.xml
+loadusr -W lcec_conf ./ethercat-conf_X.xml
 
 loadrt lcec
 loadrt trivkins
